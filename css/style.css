@@ -136,6 +136,29 @@ body{
                 padding-left: 5px;
             }
         /* FINE MAIN TEXT */
+        /* MAIN IMG HOVER */
+            .first-img{
+                display: block;
+            }
+
+            .second-img{
+                display: none;
+            }
+
+            .main-content:hover{
+                cursor: pointer;
+            }
+
+            .main-content:hover > .first-img{
+                display: none;
+            }
+
+            .main-content:hover > .second-img{
+                display: block;
+            }
+        /* FINE MAIN IMG HOVER */
+        /* MAIN WISHLIST HOVER */
+        /* FINE MAIN WISHLIST HOVER */
 /* FINE MAIN */
 
 /* UTILITIES */
