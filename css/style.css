@@ -157,6 +157,10 @@ body{
                 display: block;
             }
         /* FINE MAIN IMG HOVER */
+            label.wishlist:hover{
+                cursor: pointer;
+                color: red;
+            }
         /* MAIN WISHLIST HOVER */
         /* FINE MAIN WISHLIST HOVER */
 /* FINE MAIN */
