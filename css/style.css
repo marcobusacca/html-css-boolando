@@ -84,18 +84,18 @@ body{
                 left: 0;
             }
 
+            .label > *{
+                color: white;
+                font-size: 14px;
+                padding: 3px 10px;
+            }
+
             .label > .discount-label{
                 background-color: #FF0000;
             }
 
             .label > .green-label{
                 background-color: #008000;
-            }
-
-            .label > .discount-label, .label > .green-label{
-                color: white;
-                font-size: 14px;
-                padding: 3px 10px;
             }
 
             .main-content > .wishlist{
