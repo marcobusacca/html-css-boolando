@@ -75,32 +75,27 @@ body{
                 position: relative;
             }
 
-            .main-content > label{
+            .main-content > .label, .main-content > .wishlist{
                 position: absolute;
             }
 
-            .discount-label, .green-label-1, .green-label-2{
-                color: white;
-                font-size: 14px;
-                padding: 3px 10px;
+            .main-content > .label{
                 bottom: 7%;
+                left: 0;
             }
 
-            .main-content > .discount-label{
-                left: 0;
+            .label > .discount-label{
                 background-color: #FF0000;
             }
 
-            .main-content > .green-label-1{
-                left: 14.5%;
-            }
-
-            .main-content > .green-label-2{
-                left: 0;
-            }
-
-            .main-content > .green-label-1, .green-label-2{
+            .label > .green-label{
                 background-color: #008000;
+            }
+
+            .label > .discount-label, .label > .green-label{
+                color: white;
+                font-size: 14px;
+                padding: 3px 10px;
             }
 
             .main-content > .wishlist{
